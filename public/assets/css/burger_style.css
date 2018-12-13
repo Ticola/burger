@@ -1,0 +1,33 @@
+body {
+    background-image: url("http://www.elpatio-mallorca.com/wp-content/uploads/2018/02/Background.jpg");
+  }
+  
+img {
+    width: 15%;
+    margin: auto;
+  }
+
+.title {
+  font-family: 'Permanent Marker', cursive;
+  font-weight: 900; 
+  font-size: 5em;
+  color: beige;
+}
+  
+.ready {
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 1.5em;
+}
+
+.image {
+  animation: App-logo-spin infinite 7s linear;
+  height: 40vmin;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
