@@ -10,7 +10,7 @@ else {
         port: 3306,
         user: `jei0cam4u57b22c8`,
         password: `v81ypl0eepqpnuuh`,
-        database: `guwf7enz212ivz1p`
+        database: `heroku_guwf7enz212ivz1p`
     });
 }
 
