@@ -23,7 +23,7 @@ var orm = {
 
     updateOne: function (burgerID, callback) {
 
-        connection.query('UPDATE burgers SET ? WHERE ?', [{ devoured: true }, { id: burgerID }], function (err, result) {
+        connection.query('UPDATE burgers SET ? WHERE ?', [{ devoured: true }, { id: id }], function (err, result) {
             if (err) throw err;
             callback(result);
         });
