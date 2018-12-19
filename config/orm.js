@@ -21,7 +21,7 @@ var orm = {
         });
     },
 
-    updateOne: function (burgerID, callback) {
+    updateOne: function (id, callback) {
 
         connection.query('UPDATE burgers SET ? WHERE ?', [{ devoured: true }, { id: id }], function (err, result) {
             if (err) throw err;
